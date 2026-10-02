@@ -1,0 +1,56 @@
+{
+  "title": "SIEV-VNG: detector de ojos YOLOv8n para videonistagmografía",
+  "upload_type": "software",
+  "version": "r01",
+  "publication_date": "2026-10-02",
+  "language": "spa",
+  "license": "AGPL-3.0-only",
+  "access_right": "open",
+  "description": "<p>Modelo de detección de una clase (<code>OJO</code>) que encuentra la caja de cada ojo en imágenes infrarrojas de gafas de videonistagmografía (VNG). Es un YOLOv8n (3 millones de parámetros) ajustado desde los pesos preentrenados de Ultralytics, con 30 épocas e imagen de 320 px. En el conjunto de validación del entrenamiento alcanza precisión 0,989, exhaustividad 0,985, mAP@50 0,994 y mAP@50–95 0,674.</p><p>El depósito contiene el checkpoint original de Ultralytics (<code>siev_vng_r01.pt</code>), su exportación a ONNX para onnxruntime-web (<code>siev_vng_r01.onnx</code>, opset 18, entrada 1×3×320×320, salida 1×5×2100 sin NMS), el volcado completo de metadatos (arquitectura, argumentos de entrenamiento y métricas por época) y una ficha del modelo. trainHIT lo usa como alternativa experimental al centro del iris de MediaPipe: el modelo da la caja del ojo y la pupila se toma como el centroide de los píxeles más oscuros de adentro.</p><p><strong>Licencia:</strong> el modelo deriva de los pesos de Ultralytics YOLOv8 y se distribuye bajo AGPL-3.0. Es experimental y no es un dispositivo médico.</p><p>Desarrollado en el Laboratorio TecMedHub, Universidad Austral de Chile, Sede Puerto Montt.</p>",
+  "creators": [
+    {
+      "name": "Baier-Quezada, Nicolás",
+      "affiliation": "Universidad Austral de Chile",
+      "orcid": "0000-0003-2818-0990"
+    },
+    {
+      "name": "Uribe-Hernández, Vanessa",
+      "affiliation": "Universidad Austral de Chile",
+      "orcid": "0009-0003-0795-7921"
+    },
+    {
+      "name": "López-Moncada, Fernanda",
+      "affiliation": "Universidad Austral de Chile",
+      "orcid": "0000-0002-0810-7684"
+    },
+    {
+      "name": "Catipillan-Ulloa, Benjamín",
+      "affiliation": "Universidad Austral de Chile",
+      "orcid": "0009-0007-1411-3638"
+    }
+  ],
+  "keywords": [
+    "videonistagmografía",
+    "videonystagmography",
+    "VNG",
+    "eye tracking",
+    "detección de ojos",
+    "eye detection",
+    "pupila",
+    "infrarrojo",
+    "YOLOv8",
+    "ONNX",
+    "onnxruntime-web",
+    "otoneurología",
+    "vestibular",
+    "deep learning"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://debaq.github.io/trainhit/",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

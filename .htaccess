@@ -1,0 +1,6 @@
+# trainHIT corre en otro origen y baja el modelo con fetch: sin CORS el
+# navegador bloquea la respuesta.
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+</IfModule>
+AddType application/octet-stream .onnx .pt

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Si utiliza este modelo, por favor cítelo usando los siguientes metadatos."
+title: "SIEV-VNG: detector de ojos YOLOv8n para videonistagmografía"
+type: software
+version: r01
+date-released: 2026-10-02
+license: AGPL-3.0-only
+abstract: >-
+  Modelo YOLOv8n de una clase (OJO) que encuentra la caja de cada ojo en
+  imágenes infrarrojas de gafas de videonistagmografía. Ajustado desde los
+  pesos preentrenados de Ultralytics (30 épocas, 320 px); en validación:
+  precisión 0,989, exhaustividad 0,985, mAP@50 0,994, mAP@50–95 0,674.
+  Incluye el checkpoint de Ultralytics, la exportación a ONNX para
+  onnxruntime-web y sus metadatos. Deriva de Ultralytics YOLOv8 (AGPL-3.0).
+  Experimental, no es un dispositivo médico. Laboratorio TecMedHub,
+  Universidad Austral de Chile, Sede Puerto Montt.
+authors:
+  - family-names: Baier-Quezada
+    given-names: Nicolás
+    orcid: "https://orcid.org/0000-0003-2818-0990"
+    affiliation: Universidad Austral de Chile
+  - family-names: Uribe-Hernández
+    given-names: Vanessa
+    orcid: "https://orcid.org/0009-0003-0795-7921"
+    affiliation: Universidad Austral de Chile
+  - family-names: López-Moncada
+    given-names: Fernanda
+    orcid: "https://orcid.org/0000-0002-0810-7684"
+    affiliation: Universidad Austral de Chile
+  - family-names: Catipillan-Ulloa
+    given-names: Benjamín
+    orcid: "https://orcid.org/0009-0007-1411-3638"
+    affiliation: Universidad Austral de Chile
+keywords:
+  - videonistagmografía
+  - VNG
+  - eye tracking
+  - detección de ojos
+  - YOLOv8
+  - ONNX
