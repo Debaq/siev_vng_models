@@ -5,6 +5,8 @@ type: software
 version: r01
 date-released: 2026-10-02
 license: AGPL-3.0-only
+doi: 10.5281/zenodo.23106568
+repository-code: "https://github.com/Debaq/siev_vng_models"
 abstract: >-
   Modelo YOLOv8n de una clase (OJO) que encuentra la caja de cada ojo en
   imágenes infrarrojas de gafas de videonistagmografía. Ajustado desde los

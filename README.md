@@ -9,6 +9,17 @@ oscuros de adentro.
 Desarrollado en el Laboratorio TecMedHub, Universidad Austral de Chile,
 Sede Puerto Montt.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23106568.svg)](https://doi.org/10.5281/zenodo.23106568)
+
+## Cómo citar
+
+> Baier-Quezada N, Uribe-Hernández V, López-Moncada F, Catipillan-Ulloa B.
+> SIEV-VNG: detector de ojos YOLOv8n para videonistagmografía [software].
+> Versión r01. Zenodo; 2026. doi:10.5281/zenodo.23106568
+
+Ese DOI es el de la versión r01. Para citar el modelo sin fijar versión:
+doi:10.5281/zenodo.23106567.
+
 ## Archivos
 
 | Archivo | Qué es | Tamaño | SHA-256 |
